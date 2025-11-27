@@ -14,3 +14,15 @@ setTimeout(function(){
 
 const specificDate = new Date('2025-12-25T10:30:00');
 console.log(specificDate.toISOString());
+
+const date = new Date();
+const options = {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+};
+
+console.log(new Intl.DateTimeFormat('en-US', options).format(date));
+console.log(new Intl.DateTimeFormat('de-DE', options).format(date));
+console.log(new Intl.DateTimeFormat('ja-JP', options).format(date));
