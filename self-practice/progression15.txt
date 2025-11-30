@@ -1,0 +1,3 @@
+weekนี้อยากลองเล่น stackoverflowครับ ก็เลบลองลอง พบว่่าแปลกตรงที่
+function formatNumber(fn, number, numericSeparator) {
+limit 4752
